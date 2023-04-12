@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Lego SuperHeroes</title>
+  </head>
+  <body>
+    <!-------- PAGE -------->
+    <div class="page">
+      <!---------------- Main Content --------------------->
+      <section class="container">
+        <nav class="navbar">
+          <div class="navbar__content">
+            <img src="./img/liga1max.png" alt="" />
+            <ul>
+              <li><a href="#">RESULTADOS</a></li>
+              <li><a href="#">VIDEOS</a></li>
+              <li><a href="#">ENTREVISTAS</a></li>
+              <li><a href="#">PLANES</a></li>
+            </ul>
+          </div>
+        </nav>
+        <section class="main-content">
+          <p>Fútbol Online</p>
+          <h1>¡Mira Liga1 Max en vivo!</h1>
+          <p>
+            Mira nuestro fútbol donde sea que vivas, sólo con una conexión a
+            internet. Ahora puedes elegir cómo y dónde disfrutar de tu pasión,
+            nuestra pasión, nuestro fútbol. Te damos la bienvenida a Liga1 Play,
+            la plataforma de streaming oficial de la principal liga de fútbol.
+          </p>
+        </section>
+        <section class="side-content">
+          <div></div>
+          <!--COLOR YELLOW MITAD-->
+          <p>L1 Play</p>
+          <img src="./img/pngwing.com.png" alt="" />
+        </section>
+        <section class="footer">
+          <div>
+            <img class="legos" src="./img/ROBERT.webp" alt="" />
+          </div>
+          <div>
+            <img class="legos" src="./img/kevin-de-bruyne.webp" alt="" />
+          </div>
+          <div>
+            <img class="legos" src="./img/Kylian-Mbappe.png" alt="" />
+          </div>
+        </section>
+      </section>
+      <!----------------------- Loader ------------------------>
+      <section class="loader">
+        <div></div>
+        <div></div>
+        <div></div>
+      </section>
+      <!------------------------ Modal ------------------------->
+      <section class="modal inactive">
+        <div class="model-content">
+          <img
+            class="modal-content-closed"
+            src="https://img.icons8.com/material-rounded/24/null/cancel--v1.png"
+          />
+
+          <div class="model-content-slider">
+            <input type="radio" name="slide-1" id="radio-1" checked />
+            <input type="radio" name="slide-1" id="radio-2" />
+            <input type="radio" name="slide-1" id="radio-3" />
+            <div class="cards">
+              <label for="radio-1" class="card" id="card-1">
+                <img src="./img/sergio-busquets-11.png" alt="" />
+              </label>
+              <label for="radio-2" class="card" id="card-2">
+                <img src="./img/laporte.png" alt="" />
+              </label>
+              <label for="radio-3" class="card" id="card-3">
+                <img src="./img/ramos.png" alt="" />
+              </label>
+            </div>
+          </div>
+          <button>Ver infografía</button>
+        </div>
+      </section>
+    </div>
+  </body>
+  <script src="./main.js"></script>
+</html>
